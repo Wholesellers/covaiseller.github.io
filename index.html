@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thirupathielectricals</title>
+        <style>
+          a:hover{
+            color: coral;
+          }
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+          }
+          
+          p {
+            position: relative;
+            font-family:fantasy;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-size: 2em;
+            letter-spacing: 4px;
+            overflow: hidden;
+            background: linear-gradient(90deg, #000, #fff, #000);
+            background-repeat: no-repeat;
+            background-size: 80%;
+            animation: animate 7s;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0);
+          }
+          
+          @keyframes animate {
+            0% {
+              background-position: -500%;
+            }
+            100% {
+              background-position: 500%;
+            }
+          }
+#entrance{
+    font-size: 100%;
+}
+#close{
+    margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 200vh;
+            background-color:black;
+            position: absolute;
+           
+            animation-name:slide;
+            animation-duration:30s;
+            
+    
+}
+@keyframes slide{
+    0%{left:15px; top:0px;}
+    1%{left:6px; top:-500px;}
+    100%{left:15px; top:0px;}
+}
+
+#nav{
+    background-color: gray;
+    border-radius:20% ;
+    width: 100%;
+    height: 18%;
+    position: absolute;
+    top:1px;
+    animation-name: drop;
+    animation-duration: 8s;
+    
+}
+@keyframes drop{
+  0%{ left:0px; top:0px}
+  70%{ left:-500px; top:-500px}
+  80%{ left:0px; top:50px}
+  100%{ left:0px; top:0px}
+}
+#buttons{
+  background-color: gray;
+  position: relative;
+  animation-name: mm;
+  animation-duration:10s ;
+  color: rgb(206, 4, 4);
+  
+  
+}
+@keyframes mm{
+  0%{left:0px; top:0px}
+  100%{left:0px; top:0px}
+}
+#button1{
+  background-color: black;
+  position: relative;
+  top: 20%;
+  background-image: linear-gradient(gray,rgb(187, 181, 181));
+}
+
+  
+}
+
+        </style>
+    </head>
+
+    <body>
+        
+        <center><div id="entrance"><p>COVAI SELLERS<p></div></center>
+<div id="close"></div>
+<div id="nav">
+  
+   <div id="buttons"><center> <a href=""><button  style="width:19%; height:auto;"id="button1"><h1>about us</h1></button></a>
+    <a href=""><button style="width:19%; height:auto;" id="button1"><h1>our Works</h1></button></a>
+    <a href=""><button style="width:19%; height:auto;"id="button1"><h1>Sales</h1></button></a>
+    <a href=""><button style="width:19%; height:auto;"id="button1"><h1>Careers</h1></button></a>
+    <a href=""><button style="width:19%; height:auto;"id="button1"><h1>Contact us</h1></button></a>
+  </center>
+  </div>
+</div>
+
+    </body>
+</html>
